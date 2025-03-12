@@ -24,6 +24,14 @@ class HalamanCuaca extends StatelessElement {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.blue, Colors.lightBlueAccent],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter
+        ),
+      ),
+      child: Column(
         
       ),
     )
