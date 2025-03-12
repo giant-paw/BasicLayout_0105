@@ -23,6 +23,15 @@ class HalamanCuaca extends StatelessElement {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      // APP BAR DIATAS
+      appBar: AppBar(
+        title: const Text("Perkiraan Cuaca"),
+        centerTitle: true,
+        leading: const Icon(Icons.menu),
+        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.add_box))],
+      ),
+
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -32,7 +41,10 @@ class HalamanCuaca extends StatelessElement {
         ),
       ),
       child: Column(
-        
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+
+        ],
       ),
     )
   }
