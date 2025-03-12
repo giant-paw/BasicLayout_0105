@@ -24,7 +24,7 @@ class HalamanCuaca extends StatelessElement {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      // APP BAR DIATAS
+      // APP 
       appBar: AppBar(
         title: const Text("Perkiraan Cuaca"),
         centerTitle: true,
