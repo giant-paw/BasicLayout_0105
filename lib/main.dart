@@ -43,6 +43,35 @@ class HalamanCuaca extends StatelessElement {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
+          const SizedBox(height: 10),
+          const Text(
+            "KLATEN",
+            style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white),
+          ),
+          
+          const SizedBox(height: 5),
+          const Text(
+            "Hari ini",
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white70),
+          ), 
+
+          const SizedBox(height: 20),
+          const Text(
+            "24°C",
+            style: TextStyle(fontSize: 120, fontWeight: FontWeight.bold, color: Colors.white),
+          ),
+
+          const SizedBox(height: 10),
+          const Text(
+            "Rainy 🌧️",
+            style: TextStyle(fontSize: 24, color: Colors.white70, fontWeight: FontWeight.bold),
+          ),
+
+          const SizedBox(height: 5),
+          const Text(
+            "\u2744 5 km/h",
+            style: TextStyle(fontSize: 18, color: Colors.white70),
+          ),
 
         ],
       ),
