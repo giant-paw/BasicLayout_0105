@@ -95,7 +95,7 @@ class HalamanCuaca extends StatelessWidget {
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                     ),
                   
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 30),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -162,13 +162,18 @@ class HalamanCuaca extends StatelessWidget {
                           Text("90%", style: TextStyle(color: Colors.black, fontSize: 14)),
                         ],
                       ),
-
                     ],
                   )
                 ],
               ),
+            ),
 
-            )
+            const SizedBox(height: 20),
+            const Text(
+              "Developed by: Giant.paw",
+              style: TextStyle(color: Colors.white70, fontSize: 14),
+            ),
+            const SizedBox(height: 10),
           ],
         ),
       ),
