@@ -69,7 +69,7 @@ class HalamanCuaca extends StatelessWidget {
 
             const SizedBox(height: 10),
             const Text(
-              "Rainy 🌧️",
+              "Hujan 🌧️",
               style: TextStyle(fontSize: 24, color: Colors.white70, fontWeight: FontWeight.bold),
             ),
 
